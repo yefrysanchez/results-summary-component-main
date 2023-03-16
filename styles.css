@@ -36,9 +36,9 @@ body {
   position: relative;
 }
 
-main{
-    box-shadow: hsla(241, 100%, 89%, 0.4) 0px 7px 29px 0px;
-    border-radius: 3rem;
+main {
+  box-shadow: hsla(241, 100%, 89%, 0.4) 0px 7px 29px 0px;
+  border-radius: 3rem;
 }
 
 .result {
@@ -174,7 +174,6 @@ main{
   padding: 2rem 0;
   border-radius: 3rem;
   font-size: 1.6rem;
-  
 }
 
 .attribution {
@@ -211,6 +210,11 @@ footer {
     background-color: white;
   }
 
+  .result__h1 h1 {
+    font-size: 2.5rem;
+
+  }
+
   .result {
     height: 100%;
     width: 50%;
@@ -233,5 +237,21 @@ footer {
       var(--Light-slate-blue-background) 1%,
       var(--Light-royal-blue-background) 100%
     );
+  }
+
+  .result__circle {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .result__text h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .result__text p {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: var(--Light-lavender);
   }
 }
