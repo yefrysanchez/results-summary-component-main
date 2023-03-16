@@ -36,6 +36,11 @@ body {
   position: relative;
 }
 
+main{
+    box-shadow: hsla(241, 100%, 89%, 0.4) 0px 7px 29px 0px;
+    border-radius: 3rem;
+}
+
 .result {
   padding: 3rem;
   height: 35.6rem;
